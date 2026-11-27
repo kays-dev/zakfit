@@ -1,0 +1,25 @@
+# .gitignore du projet Vapor
+
+# --- Compilation Swift Package Manager ---
+.build/
+Packages/
+
+# --- Réglages locaux de Xcode / SwiftPM ---
+.swiftpm/
+xcuserdata/
+DerivedData/
+*.xcodeproj
+
+# --- macOS ---
+.DS_Store
+
+# --- Base SQLite locale ---
+db.sqlite
+
+# --- Fichiers de couverture de code générés par les tests ---
+default.profraw
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example

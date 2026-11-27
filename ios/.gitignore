@@ -1,0 +1,14 @@
+# .gitignore du projet iOS
+
+# --- Réglages personnels de Xcode ---
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# --- Compilation ---
+build/
+DerivedData/
+
+# --- Swift Package Manager (dépendances ajoutées dans Xcode) ---
+.build/
+.swiftpm/

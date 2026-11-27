@@ -1,0 +1,18 @@
+# .gitignore global — règles valables dans tout le dépôt
+# (les règles propres à Vapor et à Xcode sont dans backend/ et ios/)
+
+# --- macOS ---
+.DS_Store
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Vidéos de démo (hébergées en ligne) ---
+*.mp4
+*.mov
+
+# --- Fichiers temporaires de draw.io ---
+*.bkp
+*.dtmp
